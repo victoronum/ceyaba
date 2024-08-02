@@ -1,0 +1,19 @@
+{
+  "name": "ceyaba",
+  "version": "1.0.0",
+  "description": "CEYaba Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoronum/ceyaba.git"
+  },
+  "author": "Victor Onum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victoronum/ceyaba/issues"
+  },
+  "homepage": "https://github.com/victoronum/ceyaba#readme"
+}
