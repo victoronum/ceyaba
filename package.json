@@ -8,7 +8,7 @@ d{
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victoronum/ceyaba"
+    "url": "git+https://github.com/victoronum/ceyaba.git"
   },
   "author": "Victor Onum",
   "license": "MIT",
