@@ -1,0 +1,143 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+}
+
+body#bg-img{
+    background: url(../img/join-service.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body#bg-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  
+
+.header{
+    display: flex;
+    background-color:#000066;
+    height: 80px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.headertext{
+    display: flex;
+    color: white;
+    padding: 7px;
+}
+
+.ce-yaba{
+    border-right:2px solid white;
+    padding-right: 5px;
+    height: 23px;
+}
+
+.visit-button, .join-button, .ror-button{
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    border-spacing: 3px;
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.visit-button:hover, .join-button:hover, .ror-button:hover{
+    background-color:#000066;
+    color: white;
+    border: 1px solid white;
+    transition: 500ms;
+}
+
+.headerbuttons{
+    padding: 20px 0 0 400px;
+    font-weight: 300px;
+}
+
+.lz2{
+    padding-left: 5px;
+}
+
+.ce-icon{
+    height: 70px;
+    width: 90px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0;
+    overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.livestream{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.welcome-msg{
+    font-weight: 500;
+}
+
+.hero-text{
+    padding: 40px 90px;
+}
+
+.welcome-msg{
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.divine-miracles{
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.hero-ce{
+    color: rgb(255, 225, 57);
+}
+
+/*SMALL SCREENS AND PHONES*/
+@media screen and (max-width: 500px) {
+    .h1, .h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headertext{
+        position: fixed;
+    }
+}
