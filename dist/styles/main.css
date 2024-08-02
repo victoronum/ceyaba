@@ -23,11 +23,16 @@ body#bg-img:after {
     background: rgba(0, 0, 0, 0.9);
   }
   
-  
+  .lv{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .header{
     display: flex;
-    background-color:#000066;
+    background-color: #000066;
     height: 80px;
     padding-top: 10px;
     color: rgb(0, 0, 0);
